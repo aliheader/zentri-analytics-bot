@@ -1,6 +1,6 @@
 import streamlit as st
-from chat.sql_agent import process_query
-from chat.vanna_model_oai import get_vanna_model
+from src.chat.sql_agent import process_query
+from src.chat.vanna_model_oai import get_vanna_model
 
 
 @st.cache_resource(ttl=3600)

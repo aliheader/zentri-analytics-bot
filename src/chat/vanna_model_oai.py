@@ -4,7 +4,7 @@ import pandas as pd
 from vanna.faiss import FAISS
 from vanna.ollama import Ollama
 from dotenv import load_dotenv
-from chat.config import host, dbname, user, password, port
+from src.chat.config import host, dbname, user, password, port
 from vanna.openai import OpenAI_Chat
 
 

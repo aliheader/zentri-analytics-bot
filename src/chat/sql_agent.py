@@ -8,11 +8,11 @@ import os
 import logging
 from datetime import datetime
 from pathlib import Path
-from chat.vanna_model_oai import VannaModelOAI
+from src.chat.vanna_model_oai import VannaModelOAI
 
 # from vanna_model import VannaModel
 from openai import OpenAI
-from chat.extract_schema import extract_schema_summary
+from src.chat.extract_schema import extract_schema_summary
 import json
 from plotly.io import write_html
 import uuid
